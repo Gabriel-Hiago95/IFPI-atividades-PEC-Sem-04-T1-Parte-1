@@ -1,0 +1,8 @@
+def main ():
+    def cubo (a):
+        return a ** 3
+    num = int(input('Digite o valor de um número inteiro: ').strip())
+    cub = cubo(num)
+    print(f'O cubo de {num} é igual a {cub}')
+if __name__ == '__main__':
+    main()
