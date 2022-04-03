@@ -1,0 +1,10 @@
+def main():
+    def tempo_segundos(h, m, s):
+        return (h * 3600) + (m * 60) + s
+    hora = int(input('Informe um valor em hora (de 0 a 23): ').strip())
+    min = int(input('Informe um valor em minutos (de 0 a 60): ').strip())
+    seg = int(input('Informe um valor em segundos (de 0 a 60): ').strip())
+    tot_seg = tempo_segundos(hora, min, seg)
+    print(f'Nossa! já se passaram {tot_seg} segundos desde a meia noite!')
+if __name__ == '__main__':
+    main()
