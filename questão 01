@@ -1,4 +1,4 @@
-dia = 5
-mes = 10
-ano = 2022
+dia = int(input('Informe o valor do dia: ').strip())
+mes = int(input('Informe o valor do mês: ').strip())
+ano = int(input('Informe o valor do ano: ').strip())
 print(f'{dia}/{mes}/{ano}')
