@@ -1,0 +1,11 @@
+def main ():
+    def media (a, b, c):
+        m = (a + b + c) / 3
+        return m
+    num1 = int(input('Digite o primeiro valor: ').strip())
+    num2 = int(input('Digite o segundo valor: ').strip())
+    num3 = int(input('Digite o terceiro valor: ').strip())
+    m = media(num1, num2, num3)
+    print(f'A média entre os valores {num1}, {num2} e {num3} é igual a {m}')
+if __name__ == '__main__':
+    main()
